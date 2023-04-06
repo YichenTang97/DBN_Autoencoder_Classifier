@@ -1,6 +1,9 @@
 # DBN_Autoencoder_Classifier
  A pytorch implementation of Deep Belief Network (DBN) with sklearn compatibility for classification. 
  
+> **Warning**
+> Please note this is not an official implementation, nor has been tested on the datasets used in the original studies. Due to different libraries and hyperparameters used in the implementation (and potentially implementation errors), there might be differences in the performance of this model to the ones as described in the papers. Please always examine the source code, make your own changes if necessary, and describe the actual implementation if you are using this model for an academic study. And please raise an issue if you found any implementation error in my code, thank you!
+ 
 ## Introduction
 
 This repository is an implementation and generalisation of the method described in [1], which involves pre-training a DBN using unsupervised data, unrolling it as an autoencoder-decoder, fine-tuning it using unsupervised data, and then fine-tuning the encoder with supervision to use it as a classifier (see Fig.2 in [1]).
